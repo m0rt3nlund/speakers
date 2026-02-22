@@ -2,7 +2,7 @@
 name = "speakers_nifaudio"
 version = "0.1.0"
 authors = []
-edition = "2018"
+edition = "2021"
 
 [lib]
 name = "speakers_nifaudio"
@@ -11,5 +11,5 @@ crate-type = ["dylib"]
 
 [dependencies]
 rustler = "0.37.0"
-lazy_static = "1.0"
-rodio = "0.9.0"
+lazy_static = "1.5"
+rodio = "0.22.1"

@@ -6,6 +6,7 @@ defmodule Speakers.NifAudio do
   use RustlerPrecompiled,
     otp_app: :speakers,
     crate: "speakers",
+    force_build: System.get_env("RUSTLER_COMPILE") in ["1", "true"],
     base_url: "https://github.com/m0rt3nlund/speakers/releases/download/v#{version}",
     version: version
 

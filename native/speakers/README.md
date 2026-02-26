@@ -10,7 +10,7 @@
 
 ```elixir
 defmodule Speakers.NifAudio do
-    use Rustler, otp_app: <otp-app>, crate: "speakers_nifaudio"
+    use Rustler, otp_app: <otp-app>, crate: "speakers"
 
     # When your NIF is loaded, it will override this function.
     def add(_a, _b), do: :erlang.nif_error(:nif_not_loaded)

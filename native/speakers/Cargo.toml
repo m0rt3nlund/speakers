@@ -1,11 +1,11 @@
 [package]
-name = "speakers_nifaudio"
+name = "speakers"
 version = "0.1.0"
 authors = []
 edition = "2021"
 
 [lib]
-name = "speakers_nifaudio"
+name = "speakers"
 path = "src/lib.rs"
 crate-type = ["dylib"]
 

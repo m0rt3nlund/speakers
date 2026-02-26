@@ -65,7 +65,7 @@ jobs:
         id: build-crate
         uses: philss/rustler-precompiled-action@v1.1.4
         with:
-          project-name: speakers
+          project-name: speakers_nifaudio
           project-version: ${{ env.PROJECT_VERSION }}
           target: ${{ matrix.job.target }}
           nif-version: ${{ matrix.nif }}
@@ -84,3 +84,4 @@ jobs:
           files: |
             ${{ steps.build-crate.outputs.file-path }}
         if: startsWith(github.ref, 'refs/tags/')
+

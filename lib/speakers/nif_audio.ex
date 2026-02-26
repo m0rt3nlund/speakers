@@ -1,9 +1,11 @@
 defmodule Speakers.NifAudio do
   @moduledoc false
 
-  use Rustler,
+  version = Mix.Project.config()[:version]
+
+  use RustlerPrecompiled,
     otp_app: :speakers,
-    crate: :speakers,
+    crate: "speakers",
     base_url: "https://github.com/m0rt3nlund/speakers/releases/download/v#{version}",
     version: version
 

@@ -14,8 +14,6 @@ by adding `speakers` to your list of dependencies in `mix.exs`:
 ## Compilation and distribution
 ```
 mix compile
-tar -czf release/speakers_nifaudio-v0.1.0-nif-2.15-x86_64-pc-windows-msvc.dll.tar.gz _build/prod/lib/speakers/priv/native/speakers_nifaudio.dll
-cp priv/native/speakers_nifaudio.dll priv/native/speakers_nifaudio-v0.1.0-nif-2.15-x86_64-pc-windows-msvc.dll
 mix rustler_precompiled.download Speakers --all --print --ignore-unavailable
 ```
 

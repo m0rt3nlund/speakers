@@ -33,7 +33,7 @@ defmodule Speakers.MixProject do
 
   defp description do
     """
-    Library for playing remote audio files
+    Library for accessing system information
     """
   end
 
@@ -42,7 +42,7 @@ defmodule Speakers.MixProject do
       files: ["lib", "mix.exs", "README*", "LICENSE*"],
       maintainers: ["Raza Gill"],
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/razagill/speakers"}
+      links: %{"GitHub" => "https://github.com/razagill/ex_sysinfo"}
     ]
   end
 end

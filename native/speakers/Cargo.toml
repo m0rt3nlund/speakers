@@ -10,6 +10,11 @@ path = "src/lib.rs"
 crate-type = ["dylib"]
 
 [dependencies]
-rustler = "0.37.0"
+rustler = { version = "0.37.0", default-features = false }
 lazy_static = "1.5"
 rodio = "0.18"
+
+[features]
+default = ["nif_version_2_15"]
+nif_version_2_15 = ["rustler/nif_version_2_15"]
+nif_version_2_16 = ["rustler/nif_version_2_16"]

@@ -23,6 +23,7 @@ erl_crash.dump
 speakers-*.tar
 /.elixir_ls
 /priv/native/*.so
+/priv/native/*.dll
 /native/speakers/Cargo.lock
 /native/speakers/target
 /native/speakers/.cargo

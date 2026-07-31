@@ -1,4 +1,5 @@
 %{
-  "speakers-v0.1.0-nif-2.15-x86_64-pc-windows-gnu.dll.tar.gz" => "sha256:3f06299753b838d9ad3a61e47f07bd63314603ee4d77b803eb879342a3a57a68",
-  "speakers-v0.1.0-nif-2.15-x86_64-pc-windows-msvc.dll.tar.gz" => "sha256:9a254172fa8912f671cc392367fd2284c86ae4bf6926543e68b36328b6b50527",
+  "libspeakers-v0.1.2-nif-2.15-x86_64-unknown-linux-gnu.so.tar.gz" => "sha256:b56836e6d80d5c2a9be00fd86a13f9e3f82e391d5aa1b4f386e9724521984905",
+  "speakers-v0.1.2-nif-2.15-x86_64-pc-windows-gnu.dll.tar.gz" => "sha256:a4c0f6c961fc841e3c025f667dcc9d040dd911992faf06b40f22eede37121f9f",
+  "speakers-v0.1.2-nif-2.15-x86_64-pc-windows-msvc.dll.tar.gz" => "sha256:0e3a74158d8f804a3a62ac6458635a09053c6ea363aaa4e5d02fc27b5ee24ba2",
 }

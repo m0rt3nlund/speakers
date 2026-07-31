@@ -1,9 +1,7 @@
 name: Build precompiled NIFs
 
 on:
-  push:
-    tags:
-      - "v*"
+  workflow_dispatch:
 
 jobs:
   build_release:
@@ -87,6 +85,6 @@ jobs:
       - name: Publish archives and packages
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: v${{ env.PROJECT_VERSION }}
           files: |
             ${{ steps.build-crate.outputs.file-path }}
-        if: startsWith(github.ref, 'refs/tags/')
